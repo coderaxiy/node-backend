@@ -1,0 +1,10 @@
+[2023/11/13]-[9:52:15 AM] = [updatePlantById]: TypeError: Cannot read properties of null (reading 'save') 
+
+[2023/11/13]-[10:03:24 AM] = [updatePlantById]: CastError: Cast to string failed for value "[]" (type Array) at path "title" 
+
+[2023/11/13]-[10:04:00 AM] = [updatePlantById]: CastError: Cast to string failed for value "[ '123' ]" (type Array) at path "sku_number" 
+
+[2023/11/13]-[10:05:51 AM] = [updatePlantById]: CastError: Cast to string failed for value "[ '123' ]" (type Array) at path "sku_number" 
+
+[2023/11/13]-[10:07:25 AM] = [updatePlantById]: CastError: Cast to string failed for value "[ '123' ]" (type Array) at path "sku_number" 
+

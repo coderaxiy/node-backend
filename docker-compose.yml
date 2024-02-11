@@ -1,0 +1,24 @@
+version: "3"
+services:
+  app:
+    container_name: greenshop_api
+    restart: unless-stopped
+    build: .
+    ports:
+    - '8080:8080'
+    volumes:
+      - /Users/kholiylullohahmadjanov/Documents/Privates/greenshop:/app
+    depends_on:
+      - mongo
+
+  mongo:
+    container_name: greenshop_mongo
+    image: mongo
+    volumes:
+      - /Users/kholiylullohahmadjanov/Documents/Privates/database:/data/db
+    ports:
+      - '27017:27017'
+
+networks:
+  app-net:
+    driver: bridge

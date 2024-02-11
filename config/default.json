@@ -1,0 +1,12 @@
+{
+  "dbUri": "mongodb://mongo:27017/greenshop",
+  "secret": "securityKey",
+  "expire": "8 days",
+  "access_key": "myAccessKey",
+  "refresh_key": "myRefreshKey",
+  "access_time": "15m",
+  "refresh_time": "30d",
+  "refresh_ms": 2592000000,
+  "port": "8080",
+  "baseUrl": "http://localhost:8080/api/"
+}
